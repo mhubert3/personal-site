@@ -123,4 +123,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👋 Author
 
-**Morgan Huberty** – [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/morgan-huberty-74334b24b/)) · [GitHub](https://github.com/mhubert3)
+**Morgan Huberty** – [LinkedIn](https://www.linkedin.com/in/morgan-huberty-74334b24b/) · [GitHub](https://github.com/mhubert3)
