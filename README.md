@@ -118,7 +118,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - [shadcn/ui](https://ui.shadcn.com) for elegant React components
 - [Lucide](https://lucide.dev) for iconography
-- [Cursor](https://cursor.so) for AI-powered pair programming
 
 ---
 
