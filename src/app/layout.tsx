@@ -25,32 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Script to prevent flash of wrong theme */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  const storedTheme = localStorage.getItem('theme');
-                  const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                  const theme = storedTheme || systemPreference;
-                  if (theme === 'dark') {
-                    document.documentElement.classList.add('dark');
-                  } else {
-                    document.documentElement.classList.remove('dark');
-                  }
-                } catch (e) {
-                  console.error(e);
-                }
-              })();
-            `,
-          }}
-        />
       </head>
       <body
-        className={`
-          className="min-h-screen bg-white text-black bg-spaceBlack dark:text-white"
-        `}
+        className="min-h-screen bg-white text-black"
       >
         <Navbar />
         <main>{children}</main>
